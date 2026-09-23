@@ -16,7 +16,7 @@ abstract class TarefaDatabase : RoomDatabase() {
 
         fun getDatabase(context: Context): TarefaDatabase {
             return INSTANCE ?: synchronized(this) {
-                Room.databaseBuilder(
+                INSTANCE ?: Room.databaseBuilder(
                     context.applicationContext,
                     TarefaDatabase::class.java,
                     "tarefas.db"

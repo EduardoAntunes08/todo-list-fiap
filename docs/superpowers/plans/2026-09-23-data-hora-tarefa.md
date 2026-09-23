@@ -1,4 +1,5 @@
 # Data e Horário nas Tarefas — Implementation Plan
+
 > Desenvolvido acompanhando o projeto base do professor: [carreiras/to-do-list](https://github.com/carreiras/to-do-list).
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
